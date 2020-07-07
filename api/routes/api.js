@@ -17,10 +17,7 @@ const uploader = multer({ storage });
 
 var mysql = require('mysql');
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'human',
-  password: 'asd98lkmm',
-  database: 'picturelist-insta',
+
 });
 
 // const photoList = [
